@@ -12,8 +12,8 @@ const Header = () => {
       />
       <div className="text-center">
         <h1 className="text-5xl font-bold">Ashmit Shrivastava</h1>
-        <p className="text-2xl mt-4">Aspiring Quant & CS Student</p>
-        <p className="text-xl mt-2">Exploring the intersection of Computer Science and Finance</p>
+        <p className="text-2xl mt-4">Aspiring Quant & SWE</p>
+        <p className="text-xl mt-2">Exploring the intersection of Computer Science, Entrepreneurship, and Finance</p>
       </div>
     </div>
   );
