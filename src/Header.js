@@ -1,6 +1,6 @@
 // src/Header.js
 import React from 'react';
-import profilePic from './assets/Shrivastava.Ashmit.Photo.JPEG';
+import profilePic from './assets/quickSelfie.jpg';
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <img 
         src={profilePic} 
         alt="Ashmit Shrivastava" 
-        className="w-48 h-48 rounded-full border-4 border-white shadow-lg mb-6"
+        className="w-48 h-48 rounded-full border-4 border-white shadow-lg mb-6 object-cover" 
       />
       <div className="text-center">
         <h1 className="text-5xl font-bold">Ashmit Shrivastava</h1>
