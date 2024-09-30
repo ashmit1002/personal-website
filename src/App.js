@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* Default route to render the Homepage */}
-          <Route path="/" element={<Header />} />
+          <Route path="/home" element={<Header />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
