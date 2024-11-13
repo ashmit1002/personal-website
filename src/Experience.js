@@ -8,6 +8,20 @@ const Experience = () => {
       <div className="space-y-12">
         {/* TradeX */}
         <div className="p-6 bg-white shadow-lg rounded-lg">
+          <h3 className="text-2xl font-semibold">Cantor Trading</h3>
+          <p className="italic text-gray-500">Ann Arbor, MI - Quantitative Researcher (September 2023 - Present)</p>
+          <ul className="list-disc pl-5 mt-4 space-y-2 text-lg">
+            <li>
+              Developed a trading bot using Python from scratch, leveraging advanced technical analysis and algorithmic trading principles, including Support/Resistance, Bollinger Bands, etc; used historical data from weekly, daily, 5 minute charts, and real-time stream data, achieving consistent 3% monthly returns with a robust 40% trade success rate
+            </li>
+            <li>
+            Conducted daily Profit/Loss Analysis to refine trading strategies; manipulated numerical formulas and ratios based on the bot’s performance data, using Python and libraries such as TWS and Pandas, Engaging in extensive trial and error to optimize the bot’s performance, improving trading strategies and enhancing the bot’s overall effectiveness
+            </li>
+          </ul>
+        </div>
+
+        {/* TradeX */}
+        <div className="p-6 bg-white shadow-lg rounded-lg">
           <h3 className="text-2xl font-semibold">TradeX</h3>
           <p className="italic text-gray-500">Troy, MI - Founder & Developer (September 2023 - Present)</p>
           <ul className="list-disc pl-5 mt-4 space-y-2 text-lg">

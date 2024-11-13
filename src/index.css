@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global Styling Enhancements */
+body {
+  font-family: 'Inter', sans-serif; /* Clean, modern font */
+  line-height: 1.6;
+  color: #2d3748; /* Soft dark gray for main text */
+  background-color: #f7fafc; /* Light background for a fresh look */
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+a {
+  color: #3182ce; /* Bright blue for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2b6cb0; /* Slightly darker blue on hover */
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

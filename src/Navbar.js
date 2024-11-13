@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-800 text-white shadow-lg">
       <ul className="flex justify-center space-x-8 py-4">
-        {['Home', 'About', 'Experience', 'Education', 'Skills', 'Contact'].map((item) => (
+        {['About', 'Experience', 'Skills', 'Education', 'Contact'].map((item) => (
           <li key={item}>
             <Link
               to={`/${item.toLowerCase()}`} // Links will be in lowercase
